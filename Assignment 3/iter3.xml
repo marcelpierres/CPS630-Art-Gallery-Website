@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="iter3.xsl"?>
+<database>
+    <artist>
+        <row>
+            <artist_id>1</artist_id>
+            <artist_name>Grant Wood</artist_name>
+            <artist_dob>1891-02-18</artist_dob>
+            <artist_placeofliving>America</artist_placeofliving>
+            <artist_genre>Gothic</artist_genre>
+            <artist_works>American Gothic</artist_works>
+        </row>
+        <row>
+            <artist_id>2</artist_id>
+            <artist_name>High Artist</artist_name>
+            <artist_dob>2000-02-18</artist_dob>
+            <artist_placeofliving>America</artist_placeofliving>
+            <artist_genre>High</artist_genre>
+            <artist_works>Just High</artist_works>
+        </row>
+        <row>
+            <artist_id>3</artist_id>
+            <artist_name>Jan Brueghel the Younger</artist_name>
+            <artist_dob>1601-07-13</artist_dob>
+            <artist_placeofliving>Belgium</artist_placeofliving>
+            <artist_genre>Renaissance</artist_genre>
+            <artist_works>Flemish Baroque</artist_works>
+        </row>
+        <row>
+            <artist_id>4</artist_id>
+            <artist_name>Edvard Munch</artist_name>
+            <artist_dob>1863-12-12</artist_dob>
+            <artist_placeofliving>German</artist_placeofliving>
+            <artist_genre>Pre-modern</artist_genre>
+            <artist_works>The Scream</artist_works>
+        </row>
+        <row>
+            <artist_id>5</artist_id>
+            <artist_name>Roy Lichtenstein</artist_name>
+            <artist_dob>1965-12-12</artist_dob>
+            <artist_placeofliving>German</artist_placeofliving>
+            <artist_genre>Modern</artist_genre>
+            <artist_works>Sad</artist_works>
+        </row>
+    </artist>
+
+    <artwork>
+        <row>
+            <art_id>1</art_id>
+            <artist_id>1</artist_id>
+            <genre_id>1</genre_id>
+            <art_name>The Farmer</art_name>
+            <art_doc>1801-12-10</art_doc>
+            <art_colour>Oil</art_colour>
+            <art_dim>2400x1400</art_dim>
+            <art_location>Italy</art_location>
+            <art_artist>Grant Wood</art_artist>
+            <art_price>$12 Million USD</art_price>
+        </row>
+        <row>
+            <art_id>2</art_id>
+            <artist_id>2</artist_id>
+            <genre_id>2</genre_id>
+            <art_name>What Even</art_name>
+            <art_doc>1701-12-10</art_doc>
+            <art_colour>I don't even know</art_colour>
+            <art_dim>2400x1400</art_dim>
+            <art_location>Germany</art_location>
+            <art_artist>High Artist</art_artist>
+            <art_price>$10 Million USD</art_price>
+        </row>
+        <row>
+            <art_id>3</art_id>
+            <artist_id>3</artist_id>
+            <genre_id>3</genre_id>
+            <art_name>The Art of Life</art_name>
+            <art_doc>1700-12-10</art_doc>
+            <art_colour>Oil</art_colour>
+            <art_dim>2400x1400</art_dim>
+            <art_location>Italy</art_location>
+            <art_artist>Jan Brueghel the Younger</art_artist>
+            <art_price>$39 Million USD</art_price>
+        </row>
+        <row>
+            <art_id>4</art_id>
+            <artist_id>4</artist_id>
+            <genre_id>4</genre_id>
+            <art_name>The Art of Science</art_name>
+            <art_doc>1800-12-10</art_doc>
+            <art_colour>Oil</art_colour>
+            <art_dim>2400x1400</art_dim>
+            <art_location>Italy</art_location>
+            <art_artist>Edvard Munch</art_artist>
+            <art_price>$30 Million USD</art_price>
+        </row>
+        <row>
+            <art_id>5</art_id>
+            <artist_id>5</artist_id>
+            <genre_id>5</genre_id>
+            <art_name>Cool Comic</art_name>
+            <art_doc>1977-10-10</art_doc>
+            <art_colour>Dots</art_colour>
+            <art_dim>2400x1400</art_dim>
+            <art_location>United States</art_location>
+            <art_artist>Roy Lichtenstein</art_artist>
+            <art_price>$2 Million USD</art_price>
+        </row>
+        <row>
+            <art_id>6</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>1</genre_id>
+            <art_name>Tester</art_name>
+            <art_doc>2005-11-11</art_doc>
+            <art_colour>4</art_colour>
+            <art_dim>5</art_dim>
+            <art_location>3</art_location>
+            <art_artist>2</art_artist>
+            <art_price>6</art_price>
+        </row>
+        <row>
+            <art_id>7</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>7</genre_id>
+            <art_name>7</art_name>
+            <art_doc>NULL</art_doc>
+            <art_colour>7</art_colour>
+            <art_dim>7</art_dim>
+            <art_location>7</art_location>
+            <art_artist>7</art_artist>
+            <art_price>7</art_price>
+        </row>
+        <row>
+            <art_id>8</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>1</genre_id>
+            <art_name>NULL</art_name>
+            <art_doc>NULL</art_doc>
+            <art_colour>NULL</art_colour>
+            <art_dim>NULL</art_dim>
+            <art_location>NULL</art_location>
+            <art_artist>NULL</art_artist>
+            <art_price>NULL</art_price>
+        </row>
+        <row>
+            <art_id>9</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>3</genre_id>
+            <art_name>NULL</art_name>
+            <art_doc>NULL</art_doc>
+            <art_colour>black</art_colour>
+            <art_dim>NULL</art_dim>
+            <art_location>NULL</art_location>
+            <art_artist>NULL</art_artist>
+            <art_price>NULL</art_price>
+        </row>
+        <row>
+            <art_id>10</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>3</genre_id>
+            <art_name>nose</art_name>
+            <art_doc>2018-04-04</art_doc>
+            <art_colour>black</art_colour>
+            <art_dim>green</art_dim>
+            <art_location>toronto</art_location>
+            <art_artist>nose</art_artist>
+            <art_price>alot</art_price>
+        </row>
+        <row>
+            <art_id>11</art_id>
+            <artist_id>NULL</artist_id>
+            <genre_id>1</genre_id>
+            <art_name></art_name>
+            <art_doc>1789-11-11</art_doc>
+            <art_colour>I have no idea</art_colour>
+            <art_dim>2000x2000</art_dim>
+            <art_location>Toronto</art_location>
+            <art_artist>Jarl Balgruf</art_artist>
+            <art_price>Expensive as shit fam</art_price>
+        </row>
+    </artwork>
+
+    <customers>
+    </customers>
+
+    <genre>
+        <row>
+            <genre_id>3</genre_id>
+            <genre_name>Baroque</genre_name>
+        </row>
+        <row>
+            <genre_id>1</genre_id>
+            <genre_name>Gothic</genre_name>
+        </row>
+        <row>
+            <genre_id>5</genre_id>
+            <genre_name>Modern</genre_name>
+        </row>
+        <row>
+            <genre_id>4</genre_id>
+            <genre_name>Pre-Modern</genre_name>
+        </row>
+        <row>
+            <genre_id>2</genre_id>
+            <genre_name>Renaissance</genre_name>
+        </row>
+        <row>
+            <genre_id>6</genre_id>
+            <genre_name>TESTING</genre_name>
+        </row>
+    </genre>
+
+    <images>
+        <row>
+            <image_id>1</image_id>
+            <image_name>GOTHIC</image_name>
+            <image_link>https://i.pinimg.com/originals/27/81/c9/2781c93b24e586cba4d10e4992603061.jpg</image_link>
+            <art_id>1</art_id>
+        </row>
+        <row>
+            <image_id>2</image_id>
+            <image_name>RENAISSANCE</image_name>
+            <image_link>https://s3.amazonaws.com/res.milq.com/img/posts/deeply-weird-renaissance-art_2.jpg</image_link>
+            <art_id>2</art_id>
+        </row>
+        <row>
+            <image_id>3</image_id>
+            <image_name>BAROQUE</image_name>
+            <image_link>https://imgix.ranker.com/node_img/1084/21674396/original/allegory-of-war-artwork-photo-1?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces</image_link>
+            <art_id>3</art_id>
+        </row>
+        <row>
+            <image_id>4</image_id>
+            <image_name>PREMODERN</image_name>
+            <image_link>https://cms-assets.tutsplus.com/uploads/users/346/posts/29963/preview_image/arthistmodpre.jpg</image_link>
+            <art_id>4</art_id>
+        </row>
+        <row>
+            <image_id>5</image_id>
+            <image_name>MODERN</image_name>
+            <image_link>https://flavorwire.files.wordpress.com/2011/02/10-roy-lichtenstein-kiss-v.jpg?w=1920</image_link>
+            <art_id>5</art_id>
+        </row>
+    </images>
+
+    <museum>
+        <row>
+            <mus_id>1</mus_id>
+            <mus_est>1968-01-01</mus_est>
+            <mus_loc>Brampton</mus_loc>
+            <mus_construct>Byork</mus_construct>
+            <mus_history>gallery, and archive</mus_history>
+            <mus_works>Art</mus_works>
+            <art_id>1</art_id>
+        </row>
+        <row>
+            <mus_id>2</mus_id>
+            <mus_est>1921-01-01</mus_est>
+            <mus_loc>Toronto</mus_loc>
+            <mus_construct>Hork</mus_construct>
+            <mus_history>musuem is located in the heart of Toronto</mus_history>
+            <mus_works>Statues</mus_works>
+            <art_id>2</art_id>
+        </row>
+        <row>
+            <mus_id>3</mus_id>
+            <mus_est>2014-01-01</mus_est>
+            <mus_loc>Scarborough</mus_loc>
+            <mus_construct>Cork</mus_construct>
+            <mus_history> named after Genghis Khan</mus_history>
+            <mus_works>Genghis khan</mus_works>
+            <art_id>3</art_id>
+        </row>
+        <row>
+            <mus_id>4</mus_id>
+            <mus_est>1960-01-01</mus_est>
+            <mus_loc>Chicago</mus_loc>
+            <mus_construct>Snork</mus_construct>
+            <mus_history>Named after Joe Swatson</mus_history>
+            <mus_works>Peter Griffen Painting</mus_works>
+            <art_id>4</art_id>
+        </row>
+        <row>
+            <mus_id>5</mus_id>
+            <mus_est>2018-01-01</mus_est>
+            <mus_loc>Our Dreams</mus_loc>
+            <mus_construct>Lork</mus_construct>
+            <mus_history>We just want to pass</mus_history>
+            <mus_works>Actually passing</mus_works>
+            <art_id>5</art_id>
+        </row>
+    </museum>
+</database>

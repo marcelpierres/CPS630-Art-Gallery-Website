@@ -1,0 +1,1 @@
+Please disable any ad-blockers and allow in-browser pop-ups in order to see the two pop up windows.
